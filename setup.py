@@ -8,9 +8,6 @@ setup(
     author='Paulson McIntyre',
     author_email='paul@gpmidi.net',
     description='Zabbix Apache Stat Collector',
-    entry_points={
-        'console_scripts': ['zabbix-apache-stats=fetch:main']
-    },
     license = 'GPLv2',
     package_dir = {'': 'bin'},
     py_modules = ['fetch'],
